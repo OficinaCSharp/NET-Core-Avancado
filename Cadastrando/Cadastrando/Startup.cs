@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Cadastrando
 {
@@ -22,13 +23,30 @@ namespace Cadastrando
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+
+
+            //Aqui estamos adicionando o swagger a minha services e criando uma documentação dele
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1",
+                    new Info
+                    {
+                        Title = "Cadastrando",
+                        Version = "v1",
+                        Description = "API Cadastro - Fatec Jundiai",
+                        Contact = new Contact
+                        {
+                            Name = "Fatec",
+                            Url = "http://www.Fatec.com.br"
+                        }
+                    });
+            });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -37,12 +55,19 @@ namespace Cadastrando
             }
             else
             {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+
+            //Aqui estamos falando que nosso sistema vai utilizar a interface do swagger e que vai iniciar ele.
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cadastro API V1");
+            });
         }
     }
 }

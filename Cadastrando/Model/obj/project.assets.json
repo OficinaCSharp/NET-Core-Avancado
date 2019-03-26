@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\source\\repos\\Cadastrando\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\GIT_PROJECTS\\NET-Core-Avancado\\Cadastrando\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\mateu\\source\\repos\\Cadastrando\\Model\\Model.csproj",
+      "projectPath": "C:\\GIT_PROJECTS\\NET-Core-Avancado\\Cadastrando\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\source\\repos\\Cadastrando\\Model\\obj\\",
+      "outputPath": "C:\\GIT_PROJECTS\\NET-Core-Avancado\\Cadastrando\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
