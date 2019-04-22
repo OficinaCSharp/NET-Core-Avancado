@@ -7,3 +7,12 @@ C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Mode
 C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
 C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Model.dll
 C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Model.pdb
+C:\Git\NET-Core-Avancado\Cadastrando\Model\bin\Debug\netcoreapp2.2\Model.deps.json
+C:\Git\NET-Core-Avancado\Cadastrando\Model\bin\Debug\netcoreapp2.2\Model.dll
+C:\Git\NET-Core-Avancado\Cadastrando\Model\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Git\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Model.csprojAssemblyReference.cache
+C:\Git\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\Git\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\Git\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\Git\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Model.dll
+C:\Git\NET-Core-Avancado\Cadastrando\Model\obj\Debug\netcoreapp2.2\Model.pdb

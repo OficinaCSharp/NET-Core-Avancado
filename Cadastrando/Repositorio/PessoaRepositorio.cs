@@ -23,5 +23,16 @@ namespace Repositorio
 
             }
         }
+
+        public int inserir (PessoaModelo pessoa)
+        {
+            using (var connection = new SqlConnection(dbConnection.GetConn()))
+            {
+                return connection.QuerySingle<int>($"DECLARE @id int;" +
+                    $"Insert into Pessoas (nome, usuario) Values ('{pessoa.nome}', '{pessoa.usuario}')"+
+                    $"SET @id = SCOPE_IDENTITY();" +
+                    $"select @id");
+            }
+        }
     }
 }

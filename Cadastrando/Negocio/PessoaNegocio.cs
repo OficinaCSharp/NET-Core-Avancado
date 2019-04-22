@@ -20,5 +20,18 @@ namespace Negocio
             //Este é o retorno do método então ele vai retornar exatamente o que o metodo Selecionar da minha repositorio me devolver.
             return _pessoaRepositorio.Selecionar(); 
         }
+
+        public PessoaModelo inserir(PessoaModelo pessoa)
+        {
+            var result = _pessoaRepositorio.inserir(pessoa);
+            if (result > 0)
+            {
+                return pessoa;
+            }
+            else
+            {
+                return default(PessoaModelo);
+            }
+        }
     }
 }

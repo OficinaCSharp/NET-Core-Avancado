@@ -12,3 +12,17 @@ C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Ne
 C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.csproj.CopyComplete
 C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.dll
 C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.pdb
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\bin\Debug\netcoreapp2.2\Negocio.deps.json
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\bin\Debug\netcoreapp2.2\Negocio.dll
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\bin\Debug\netcoreapp2.2\Negocio.pdb
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\bin\Debug\netcoreapp2.2\Model.dll
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\bin\Debug\netcoreapp2.2\Repositorio.dll
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\bin\Debug\netcoreapp2.2\Repositorio.pdb
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.csprojAssemblyReference.cache
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.csproj.CoreCompileInputs.cache
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.AssemblyInfoInputs.cache
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.AssemblyInfo.cs
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.csproj.CopyComplete
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.dll
+C:\Git\NET-Core-Avancado\Cadastrando\Negocio\obj\Debug\netcoreapp2.2\Negocio.pdb

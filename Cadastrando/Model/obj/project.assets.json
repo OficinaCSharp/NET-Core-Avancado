@@ -552,12 +552,11 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -687,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mateu\\.nuget\\packages\\": {},
+    "C:\\Users\\mamaral\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT_PROJECTS\\NET-Core-Avancado\\Cadastrando\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\Git\\NET-Core-Avancado\\Cadastrando\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\GIT_PROJECTS\\NET-Core-Avancado\\Cadastrando\\Model\\Model.csproj",
-      "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT_PROJECTS\\NET-Core-Avancado\\Cadastrando\\Model\\obj\\",
+      "projectPath": "C:\\Git\\NET-Core-Avancado\\Cadastrando\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\mamaral\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\NET-Core-Avancado\\Cadastrando\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mamaral\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

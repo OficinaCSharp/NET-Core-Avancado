@@ -10,3 +10,15 @@ C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Repositorio\bin\Debug\netcoreapp2.
 C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.csproj.CopyComplete
 C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.dll
 C:\GIT_PROJECTS\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.pdb
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\bin\Debug\netcoreapp2.2\Repositorio.deps.json
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\bin\Debug\netcoreapp2.2\Repositorio.dll
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\bin\Debug\netcoreapp2.2\Repositorio.pdb
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\bin\Debug\netcoreapp2.2\Model.dll
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.csprojAssemblyReference.cache
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.csproj.CoreCompileInputs.cache
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.AssemblyInfoInputs.cache
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.AssemblyInfo.cs
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.csproj.CopyComplete
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.dll
+C:\Git\NET-Core-Avancado\Cadastrando\Repositorio\obj\Debug\netcoreapp2.2\Repositorio.pdb

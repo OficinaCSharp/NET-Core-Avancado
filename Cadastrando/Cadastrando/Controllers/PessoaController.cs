@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Model;
 using Negocio;
 
 namespace Cadastrando.Controllers
@@ -24,6 +25,16 @@ namespace Cadastrando.Controllers
             //aqui é o retorno do meu controle de get onde ele retorna um ok e chama um método de selecionar da minha classe de negócio
             return Ok(pessoaNegocio.Selecionar());
         } 
+
+        [HttpPost]
+        [ProducesResponseType(typeof(string),201)]
+        [ProducesResponseType(402)]
+        [ProducesResponseType(500)]
+        public IActionResult Post([FromBody] PessoaModelo pessoa)
+        {
+            return CreatedAtRoute("", pessoaNegocio.inserir(pessoa));
+        }
+
 
     }
 }
