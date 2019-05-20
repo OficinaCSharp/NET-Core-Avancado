@@ -21,6 +21,18 @@ namespace Negocio
             return _pessoaRepositorio.Selecionar(); 
         }
 
+        public IEnumerable<PessoaModelo> SelecionarPorId(int id, string nome)
+        {
+            if(id>0 || nome != null)
+            {
+                return _pessoaRepositorio.SelecionarPorId(id, nome);
+            }
+            else
+            {
+                return default(IEnumerable<PessoaModelo>);
+            }
+        }
+
         public PessoaModelo inserir(PessoaModelo pessoa)
         {
             var result = _pessoaRepositorio.inserir(pessoa);

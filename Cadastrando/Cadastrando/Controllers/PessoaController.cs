@@ -15,16 +15,23 @@ namespace Cadastrando.Controllers
     {
         //Criando uma estância para poder acessar os Objetos, Propriedades, Métodos da minha classe de Negocio
         PessoaNegocio pessoaNegocio = new PessoaNegocio();
-        
+
 
         //Criando aqui um controle de Get, onde retorna uma lista de pessoas cadastradas no banco
         [HttpGet]
         //Nesta linha abaixo criamos um metodo de http get que nem esta escrito acima e falamos que ele retorna o resultado de uma ação
-        public IActionResult Get() 
+        public IActionResult Get()
         {
             //aqui é o retorno do meu controle de get onde ele retorna um ok e chama um método de selecionar da minha classe de negócio
             return Ok(pessoaNegocio.Selecionar());
-        } 
+        }
+
+        [HttpGet]
+        [Route("pessoa/{id}/{nome}")]
+        public IActionResult GetPorId([FromRoute] int id, [FromRoute] string nome)
+        {
+            return Ok(pessoaNegocio.SelecionarPorId(id,nome));
+        }
 
         [HttpPost]
         [ProducesResponseType(typeof(string),201)]

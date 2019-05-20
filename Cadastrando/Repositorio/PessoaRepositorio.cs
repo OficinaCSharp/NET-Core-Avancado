@@ -34,5 +34,13 @@ namespace Repositorio
                     $"select @id");
             }
         }
+
+        public IEnumerable<PessoaModelo> SelecionarPorId(int id, string nome)
+        {
+            using (var connection = new SqlConnection(dbConnection.GetConn()))
+            {
+                return connection.Query<PessoaModelo>($"SELECT * FROM Pessoas WHERE id = {id} or nome like '%{nome}%'");
+            }
+        }
     }
 }
